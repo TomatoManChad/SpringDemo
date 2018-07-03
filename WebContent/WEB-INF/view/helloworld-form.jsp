@@ -13,7 +13,9 @@
 			type="submit" />
 
 	</form>
-
+	<br>
+<button onclick="location.href='http://localhost:8080/spring-mvc-demo/'" type="button">
+     go to homepage</button>
 </body>
 
 </html>
