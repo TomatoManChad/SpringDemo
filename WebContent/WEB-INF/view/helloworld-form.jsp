@@ -7,7 +7,7 @@
 
 <body>
 
-	<form action="processForm" method="GET">
+	<form action="processFormVersionTwo" method="GET"> <!-- action was previously processForm-->
 
 		<input type="text" name="studentName" placeholder="Enter your name" /> <input
 			type="submit" />
