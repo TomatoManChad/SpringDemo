@@ -5,11 +5,20 @@
 
 	<h2>Spring MVC Demo - Home Page</h2>
 	<hr>
-	<a href = "hello/showForm"> go to showForm</a> <!--  worded link -->
-	<br><br>
-
-<button onclick="location.href='http://localhost:8080/spring-mvc-demo/hello/showForm'" type="button"> <!--  button link -->
-     go to /showForm</button>
+	<!--  worded link -->
+	<a href="hello/showForm"> go to showForm</a>
+	
+	<br>
+	<br>
+	<a href="student/showForm">go to student form</a>
+	<br>
+	<br>
+	<button
+		onclick="location.href='http://localhost:8080/spring-mvc-demo/hello/showForm'"
+		type="button">
+		<!--  button link -->
+		go to /showForm
+	</button>
 </body>
 
 </html>
