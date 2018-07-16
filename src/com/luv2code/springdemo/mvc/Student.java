@@ -8,17 +8,27 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap <String, String> countryOptions;
+	private String favouriteLanguage;
+	private LinkedHashMap <String, String> languageOptions;
 	
 	public Student() {
 		
 		//populate country options
 		countryOptions = new LinkedHashMap<>();
+		languageOptions = new LinkedHashMap<>();
 		
 		countryOptions.put("BR", "Brazil");
 		countryOptions.put("FR", "France");
 		countryOptions.put("DE", "Germany");
 		countryOptions.put("IN", "India");
 		countryOptions.put("US", "USA");	
+		
+		languageOptions.put("Java", "Java");
+		languageOptions.put("c£", "c£");
+		languageOptions.put("PHP", "PHP");
+		languageOptions.put("Ruby", "Ruby");
+		languageOptions.put("Python", "Python");
+		
 	}
 
 	//setters and getters used in the jsp file path for student-form and student-confirmation
@@ -50,6 +60,16 @@ public class Student {
 		return countryOptions;
 	}
 
-	
+	public String getFavouriteLanguage() {
+		return favouriteLanguage;
+	}
+
+	public void setFavouriteLanguage(String favouriteLanguage) {
+		this.favouriteLanguage = favouriteLanguage;
+	}
+
+	public LinkedHashMap<String, String> getLanguageOptions() {
+		return languageOptions;
+	}
 	
 }

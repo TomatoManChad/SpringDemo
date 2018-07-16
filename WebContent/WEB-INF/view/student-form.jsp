@@ -20,11 +20,22 @@
 					
 					Country: 
 					<form:select path="country">
-					<!--  spring calls student.getCountryoptions() in this bit -->
+			<!--  spring calls student.getCountryoptions() in this bit -->
 			<form:options items="${student.countryOptions}" />
 		</form:select>
 		<br>
 		<br>
+					Favourite Language:
+					<form:radiobuttons path="favouriteLanguage" items ="${student.languageOptions}" />
+					
+					<!-- Java<form:radiobutton path="favouriteLanguage" value="Java"/>
+					c£<form:radiobutton path="favouriteLanguage" value="c£"/>
+					PHP<form:radiobutton path="favouriteLanguage" value="PHP"/>
+					Ruby<form:radiobutton path="favouriteLanguage" value="Ruby"/> -->
+		
+		<br>
+		<br>
+		
 		<input type="submit" value="submit" />
 
 	</form:form>
