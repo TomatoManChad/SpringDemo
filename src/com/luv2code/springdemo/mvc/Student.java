@@ -10,12 +10,14 @@ public class Student {
 	private LinkedHashMap <String, String> countryOptions;
 	private String favouriteLanguage;
 	private LinkedHashMap <String, String> languageOptions;
+	private String[] operatingSystems;
 	
 	public Student() {
 		
 		//populate country options
 		countryOptions = new LinkedHashMap<>();
 		languageOptions = new LinkedHashMap<>();
+		
 		
 		countryOptions.put("BR", "Brazil");
 		countryOptions.put("FR", "France");
@@ -70,6 +72,14 @@ public class Student {
 
 	public LinkedHashMap<String, String> getLanguageOptions() {
 		return languageOptions;
+	}
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
 	}
 	
 }
