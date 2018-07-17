@@ -12,6 +12,9 @@
 	<a href="student/showForm">go to student form</a>
 	<br>
 	<br>
+	<a href="customer/showForm">go to customer form</a>
+	<br>
+	<br>
 	<button
 		onclick="location.href='http://localhost:8080/spring-mvc-demo/hello/showForm'"
 		type="button">
