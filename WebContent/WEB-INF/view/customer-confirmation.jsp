@@ -17,6 +17,9 @@
 	PostCode: ${customer.postCode}
 	<br>
 	<br>
+	Course Code: ${customer.courseCode}
+	<br>
+	<br>
 	<a href="/spring-mvc-demo"> go to home</a>
 	<br>
 	<br>
