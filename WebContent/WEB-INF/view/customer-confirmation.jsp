@@ -11,6 +11,12 @@
 	The customer is confirmed: ${customer.firstName} ${customer.lastName}
 	<br>
 	<br>
+	Free passes: ${customer.freePasses}
+	<br>
+	<br>
+	PostCode: ${customer.postCode}
+	<br>
+	<br>
 	<a href="/spring-mvc-demo"> go to home</a>
 	<br>
 	<br>

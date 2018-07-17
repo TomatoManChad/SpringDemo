@@ -39,7 +39,9 @@ public class CustomerController {
 	
 		
 		System.out.println("Last name: "+"["+theCustomer.getLastName()+"]");
-		if(theBindingResult.hasErrors()) { //if error, return back to customer-form page
+		System.out.println("Binding result" + theBindingResult); //printing Binding result will show what error codes are happening in the fields
+		
+		if(theBindingResult.hasErrors()) { //if error based on validation rules from customer class, return back to customer-form page
 			return "customer-form";
 		}
 		else { //else go to confirm page
